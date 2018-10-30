@@ -3,8 +3,8 @@
 This api follows restful architecture and provides two endpoints for crud operations:
 
 ## /comments
-* GET request - For retrieval of all resources. Response is list of comments and status code 200 if successful.
-* POST requests - To submit a new comment send a POST request with 'comment' as parameter and the actual comment as a value. Succesful response contains the new comment with tone if identified and status code 201. API returns 400 if comment is missing.
+* GET - For retrieval of all resources. Response is list of comments and status code 200 if successful.
+* POST - To submit a new comment send a POST request with 'comment' as parameter and the actual comment as a value. Succesful response contains the new comment with tone if identified and status code 201. API returns 400 if comment is missing.
 
 ## /comments/{sku}
 * GET - Returns comment with the specified sku if it exists else returns 404.
