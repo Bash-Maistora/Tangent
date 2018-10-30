@@ -7,9 +7,9 @@ This api follows restful architecture and provides two endpoints for crud operat
 * POST requests - To submit a new comment send a POST request with 'comment' as parameter and the actual comment as a value. Succesful response contains the new comment with tone if identified and status code 201. API returns 400 if comment is missing.
 
 ## /comments/{sku}
-*GET - Returns comment with the specified sku if it exists else returns 404.
-*PUT - Update the comment of the specific resource by submitting a new comment in the body. Returns the new comment and tone if it exists else returns 404.
-*DELETE - Deletes the resources if it exists else returns 404.
+* GET - Returns comment with the specified sku if it exists else returns 404.
+* PUT - Update the comment of the specific resource by submitting a new comment in the body. Returns the new comment and tone if it exists else returns 404.
+* DELETE - Deletes the resources if it exists else returns 404.
 
 
 ## Setup
