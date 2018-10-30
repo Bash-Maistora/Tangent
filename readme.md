@@ -15,10 +15,7 @@ This api follows restful architecture and provides two endpoints for crud operat
 ## Setup
  1. Create and activate virtualenv with python 3.6
  2. Pip install -r requirements.txt
- 3. Database creation and migration
-    * python migration.py db init
-    * python migration.py db migrate
-    * python migration.py db upgrade
+ 3. Database creation and migration with python migration.py db upgrade
  4. Run tests with python test_api.py
  5. Run Server with flask run while in root dir
 
